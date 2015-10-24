@@ -36,14 +36,6 @@
 # Copyright 2015 Your name here, unless otherwise noted.
 #
 class aws_lambda {
-  class { '::nodejs':
-    manage_package_repo       => false,
-    nodejs_package_ensure     => present,
-    nodejs_dev_package_ensure => present,
-    npm_package_ensure        => present,
-    repo_class                => '::epel',
-    repo_ensure               => absent,
-  } ->
   class { "aws_lambda::install": } ->
   Class['aws_lambda']
 }

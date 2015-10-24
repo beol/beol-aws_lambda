@@ -1,6 +1,6 @@
 {
   "name": "beol-aws_lambda",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Leo Laksmana <beol@laksmana.com>",
   "summary": "Installs AWS Lambda local development environment",
   "license": "Apache 2.0",
