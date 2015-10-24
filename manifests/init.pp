@@ -36,7 +36,6 @@
 # Copyright 2015 Your name here, unless otherwise noted.
 #
 class aws_lambda {
-  class { '::epel': } ->
   class { '::nodejs':
     manage_package_repo       => false,
     nodejs_package_ensure     => present,
