@@ -1,0 +1,22 @@
+{
+  "name": "beol-aws_lambda",
+  "version": "0.1.0",
+  "author": "Leo Laksmana <beol@laksmana.com>",
+  "summary": "Installs AWS Lambda local development environment",
+  "license": "Apache 2.0",
+  "source": "https://github.com/beol/beol-aws_lambda",
+  "project_page": "https://github.com/beol/beol-aws_lambda",
+  "issues_url": "https://github.com/beol/beol-aws_lambda/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"CentOS",
+      "operatingsystemrelease":["6"]
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"puppet-nodejs","version_requirement":">= 1.2.0"},
+    {"name":"stahnma-epel","version_requirement":">= 1.1.1"}
+  ]
+}
+
