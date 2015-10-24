@@ -1,6 +1,7 @@
 class aws_lambda::install inherits aws_lambda {
   include epel
 
+  Class['::epel'] ->
   class { '::nodejs':
     manage_package_repo       => false,
     nodejs_package_ensure     => present,
